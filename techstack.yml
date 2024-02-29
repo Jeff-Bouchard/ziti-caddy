@@ -1,0 +1,1299 @@
+repo_name: Jeff-Bouchard/ziti-caddy
+report_id: 397610cb98593e6cd472fbb93136fca0
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:53:47+00:00'
+requested_by: ekoby
+provider: github
+branch: main
+detected_tools_count: 91
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy
+  detection_source: Repo Metadata
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy
+  detection_source: Repo Metadata
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: OpenAPI
+  description: Allows the owner of a network-accessible service to give universal
+    access
+  website_url: https://www.openapis.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: API Tools
+  image_url: https://img.stackshare.io/service/9792/L8C2-2bd_400x400.jpg
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: Masterminds/goutils
+  description: GoUtils is a Go implementation of some string manipulation libraries
+    of Apache Commons
+  package_url: https://pkg.go.dev/github.com/Masterminds/goutils
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: analysis
+  description: Openapi specification object model analyzer
+  package_url: https://pkg.go.dev/github.com/go-openapi/analysis
+  version: 0.21.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: ansi
+  description: Small, fast library to create ANSI colored strings and codes
+  package_url: https://pkg.go.dev/github.com/mgutz/ansi
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: aryann/difflib
+  description: Package difflib provides functionality for computing the difference
+    between two sequences of strings
+  package_url: https://pkg.go.dev/github.com/aryann/difflib
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: atomic
+  description: Wrapper types for sync/atomic which enforce atomic access
+  package_url: https://pkg.go.dev/go.uber.org/atomic
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: badger
+  description: Fast key-value DB in Go
+  package_url: https://pkg.go.dev/github.com/dgraph-io/badger
+  version: 1.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: bbloom
+  description: 'Go/golang: fast bit set Bloom filter'
+  package_url: https://pkg.go.dev/github.com/AndreasBriese/bbloom
+  version: 0.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: cast
+  description: Safe and easy casting from one type to another in Go
+  package_url: https://pkg.go.dev/github.com/spf13/cast
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: cespare/xxhash
+  description: A Go implementation of the 64-bit xxHash algorithm
+  package_url: https://pkg.go.dev/github.com/cespare/xxhash
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: chi
+  description: Lightweight
+  package_url: https://pkg.go.dev/github.com/go-chi/chi
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: client_model
+  description: Data model artifacts for Prometheus
+  package_url: https://pkg.go.dev/github.com/prometheus/client_model
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: cobra
+  description: A Commander for modern Go CLI interactions
+  package_url: https://pkg.go.dev/github.com/spf13/cobra
+  version: 0.0.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: common
+  description: Go libraries shared across Prometheus components and libraries
+  package_url: https://pkg.go.dev/github.com/prometheus/common
+  version: 0.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: compress
+  description: Optimized compression packages
+  package_url: https://pkg.go.dev/github.com/klauspost/compress
+  version: 1.10.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: copystructure
+  description: Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/copystructure
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: decimal
+  description: Arbitrary-precision fixed-point decimal numbers in go
+  package_url: https://pkg.go.dev/github.com/shopspring/decimal
+  version: 0.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: dns
+  description: DNS library in Go
+  package_url: https://pkg.go.dev/github.com/miekg/dns
+  version: 1.0.14
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+  vulnerabilities:
+  - name: Insecure generation of random numbers
+    cve_id: CVE-2019-19794
+    cve_url: https://github.com/advisories/GHSA-44r7-7p62-q3fr
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.1.25
+- name: easyjson
+  description: Fast JSON serializer for golang
+  package_url: https://pkg.go.dev/github.com/mailru/easyjson
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  version: 0.8.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: exp
+  description: Experimental and deprecated packages
+  package_url: https://pkg.go.dev/golang.org/x/exp
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: fsnotify
+  description: Cross-platform file system notifications for Go
+  package_url: https://pkg.go.dev/github.com/fsnotify/fsnotify
+  version: 1.4.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: fullsailor/pkcs7
+  description: Implements a subset of PKCS#7/Crytpographic Message Syntax
+  package_url: https://pkg.go.dev/github.com/fullsailor/pkcs7
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: glog
+  description: Leveled execution logs for Go
+  package_url: https://pkg.go.dev/github.com/golang/glog
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: go-farm
+  description: 'Go-farm: a pure-Go farmhash implementation'
+  package_url: https://pkg.go.dev/github.com/dgryski/go-farm
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: go-hashids
+  description: Go
+  package_url: https://pkg.go.dev/github.com/speps/go-hashids
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: go-humanize
+  description: Go Humans!
+  package_url: https://pkg.go.dev/github.com/dustin/go-humanize
+  version: 0.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: go-jose.v2
+  description: Package jose aims to provide an implementation of the Javascript Object
+    Signing and Encryption set of standards
+  package_url: https://pkg.go.dev/gopkg.in/square/go-jose.v2
+  version: 2.5.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: go-metrics
+  description: Go port of Coda Hale's Metrics library
+  package_url: https://pkg.go.dev/github.com/rcrowley/go-metrics
+  version: 0.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: go-ole
+  description: Win32 ole implementation for golang
+  package_url: https://pkg.go.dev/github.com/go-ole/go-ole
+  version: 1.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: go-openapi/errors
+  description: Openapi toolkit common errors
+  package_url: https://pkg.go.dev/github.com/go-openapi/errors
+  version: 0.19.8
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: go-ps
+  description: Find, list, and inspect processes from Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/go-ps
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: go-winio
+  description: Win32 IO-related utilities for Go
+  package_url: https://pkg.go.dev/github.com/Microsoft/go-winio
+  version: 0.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: golang_protobuf_extensions
+  description: Support for streaming Protocol Buffer messages for the Go language
+  package_url: https://pkg.go.dev/github.com/matttproud/golang_protobuf_extensions
+  version: 1.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: govalidator
+  description: Package of validators and sanitizers for strings
+  package_url: https://pkg.go.dev/github.com/asaskevich/govalidator
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: httpsnoop
+  description: Package httpsnoop provides an easy way to capture http related metrics
+  package_url: https://pkg.go.dev/github.com/felixge/httpsnoop
+  version: 1.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: jsonpointer
+  description: Fork of gojsonpointer with support for structs
+  package_url: https://pkg.go.dev/github.com/go-openapi/jsonpointer
+  version: 0.19.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: jsonreference
+  description: Fork of gojsonreference with support for structs
+  package_url: https://pkg.go.dev/github.com/go-openapi/jsonreference
+  version: 0.19.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: kit
+  description: A standard library for microservices
+  package_url: https://pkg.go.dev/github.com/go-kit/kit
+  version: 0.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: loads
+  description: Openapi specification object model
+  package_url: https://pkg.go.dev/github.com/go-openapi/loads
+  version: 0.21.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: logfmt
+  description: Package logfmt marshals and unmarshals logfmt messages
+  package_url: https://pkg.go.dev/github.com/go-logfmt/logfmt
+  version: 0.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: logr
+  description: A simple logging interface for Go
+  package_url: https://pkg.go.dev/github.com/go-logr/logr
+  version: 1.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: logrus
+  description: Structured, pluggable logging for Go
+  package_url: https://pkg.go.dev/github.com/sirupsen/logrus
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: lumberjack.v2
+  description: Package lumberjack provides a rolling logger
+  package_url: https://pkg.go.dev/gopkg.in/natefinch/lumberjack.v2
+  version: 2.2.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: mapstructure
+  description: Go library for decoding generic map values into native Go structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/mapstructure
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: mergo
+  description: 'Mergo: merging Go structs and maps since 2013'
+  package_url: https://pkg.go.dev/github.com/imdario/mergo
+  version: 0.3.8
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: mock
+  description: GoMock is a mocking framework for the Go programming language
+  package_url: https://pkg.go.dev/github.com/golang/mock
+  version: 1.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: mousetrap
+  description: Detect starting from Windows explorer
+  package_url: https://pkg.go.dev/github.com/inconshreveable/mousetrap
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: mux
+  description: "A powerful HTTP router and URL matcher for building Go web servers
+    with \U0001F98D"
+  package_url: https://pkg.go.dev/github.com/gorilla/mux
+  version: 1.4.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: opentracing-go
+  description: OpenTracing API for Go
+  package_url: https://pkg.go.dev/github.com/opentracing/opentracing-go
+  version: 1.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: perks
+  description: Effective Computation of Things
+  package_url: https://pkg.go.dev/github.com/beorn7/perks
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: pflag
+  description: Drop-in replacement for Go's flag package
+  package_url: https://pkg.go.dev/github.com/spf13/pflag
+  version: 1.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: pkcs11
+  description: Pkcs11 wrapper for Go
+  package_url: https://pkg.go.dev/github.com/miekg/pkcs11
+  version: 1.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: pprof
+  description: Pprof is a tool for visualization and analysis of profiling data
+  package_url: https://pkg.go.dev/github.com/google/pprof
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: procfs
+  description: Procfs provides functions to retrieve system
+  package_url: https://pkg.go.dev/github.com/prometheus/procfs
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: readline
+  description: Readline is a pure go
+  package_url: https://pkg.go.dev/github.com/chzyer/readline
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: reflectwalk
+  description: Reflectwalk is a Go library for "walking" complex structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/reflectwalk
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: regexp2
+  description: A full-featured regex engine in pure Go based on the .NET engine
+  package_url: https://pkg.go.dev/github.com/dlclark/regexp2
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: ristretto
+  description: A high performance memory-bound Go cache
+  package_url: https://pkg.go.dev/github.com/dgraph-io/ristretto
+  version: 0.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: runtime
+  description: Openapi runtime interfaces
+  package_url: https://pkg.go.dev/github.com/go-openapi/runtime
+  version: 0.26.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: runtime/client
+  description: Openapi runtime interfaces
+  package_url: https://pkg.go.dev/github.com/go-openapi/runtime/client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: sanitized_anchor_name
+  description: Package sanitized_anchor_name provides a func to create sanitized anchor
+    names
+  package_url: https://pkg.go.dev/github.com/shurcooL/sanitized_anchor_name
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: snappy
+  description: The Snappy compression format in the Go programming language
+  package_url: https://pkg.go.dev/github.com/golang/snappy
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: spec
+  description: Openapi specification object model
+  package_url: https://pkg.go.dev/github.com/go-openapi/spec
+  version: 0.20.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: strfmt
+  description: Openapi toolkit common string formats
+  package_url: https://pkg.go.dev/github.com/go-openapi/strfmt
+  version: 0.21.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: swag
+  description: Goodie bag in use in the go-openapi projects
+  package_url: https://pkg.go.dev/github.com/go-openapi/swag
+  version: 0.19.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-09-29 15:22:56.000000000 Z
+- name: toml
+  description: TOML parser for Golang with reflection
+  package_url: https://pkg.go.dev/github.com/BurntSushi/toml
+  version: 0.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: ulid
+  description: Universally Unique Lexicographically Sortable Identifier
+  package_url: https://pkg.go.dev/github.com/oklog/ulid
+  version: 1.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: urfave/cli
+  description: A simple
+  package_url: https://pkg.go.dev/github.com/urfave/cli
+  version: 1.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: validate
+  description: Openapi toolkit validation helpers
+  package_url: https://pkg.go.dev/github.com/go-openapi/validate
+  version: 0.22.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: websocket
+  description: A fast
+  package_url: https://pkg.go.dev/github.com/gorilla/websocket
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-24 17:44:01.000000000 Z
+  vulnerabilities:
+  - name: Integer overflow in github.com/gorilla/websocket
+    cve_id: CVE-2020-27813
+    cve_url: https://github.com/advisories/GHSA-3xh2-74w9-5vxm
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.1
+- name: xid
+  description: Xid is a globally unique id generator thought for the web
+  package_url: https://pkg.go.dev/github.com/rs/xid
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: xstrings
+  description: 'Xstrings: A collection of useful string functions for Go'
+  package_url: https://pkg.go.dev/github.com/huandu/xstrings
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+- name: yaml.v2
+  description: YAML support for the Go language
+  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
+  version: 2.0.0
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
+  vulnerabilities:
+  - name: Excessive Platform Resource Consumption within a Loop in Kubernetes
+    cve_id: CVE-2019-11254
+    cve_url: https://github.com/advisories/GHSA-wxc4-f4m6-wwqv
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 2.2.8
+- name: zap
+  description: Blazing fast, structured, leveled logging in Go
+  package_url: https://pkg.go.dev/go.uber.org/zap
+  version: 1.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ziti-caddy/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Eugene K
+  last_updated_on: 2023-05-10 17:45:28.000000000 Z
