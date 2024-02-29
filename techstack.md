@@ -4,11 +4,11 @@
 Jeff-Bouchard/ziti-caddy is built on the following main stack:
 
 - [Golang](http://golang.org/) – Languages
-- [MySQL](http://www.mysql.com) – Databases
-- [MongoDB](http://www.mongodb.com/) – Databases
-- [Prometheus](http://prometheus.io/) – Monitoring Tools
 - [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
 - [gRPC](https://grpc.io/) – Remote Procedure Call (RPC)
+- [MongoDB](http://www.mongodb.com/) – Databases
+- [MySQL](http://www.mysql.com) – Databases
+- [Prometheus](http://prometheus.io/) – Monitoring Tools
 - [OpenAPI](https://www.openapis.org/) – API Tools
 
 Full tech stack [here](/techstack.md)
@@ -20,11 +20,11 @@ Full tech stack [here](/techstack.md)
 Jeff-Bouchard/ziti-caddy is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/1005/O6AczwfV_400x400.png' alt='Golang'/> [Golang](http://golang.org/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1025/logo-mysql-170x170.png' alt='MySQL'/> [MySQL](http://www.mysql.com) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1030/leaf-360x360.png' alt='MongoDB'/> [MongoDB](http://www.mongodb.com/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png' alt='Prometheus'/> [Prometheus](http://prometheus.io/) – Monitoring Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png' alt='Protobuf'/> [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png' alt='gRPC'/> [gRPC](https://grpc.io/) – Remote Procedure Call (RPC)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1030/leaf-360x360.png' alt='MongoDB'/> [MongoDB](http://www.mongodb.com/) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1025/logo-mysql-170x170.png' alt='MySQL'/> [MySQL](http://www.mysql.com) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png' alt='Prometheus'/> [Prometheus](http://prometheus.io/) – Monitoring Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/9792/L8C2-2bd_400x400.jpg' alt='OpenAPI'/> [OpenAPI](https://www.openapis.org/) – API Tools
 
 Full tech stack [here](/techstack.md)
@@ -36,7 +36,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [Jeff-Bouchard/ziti-caddy](https://github.com/Jeff-Bouchard/ziti-caddy)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|91<br/>Tools used|02/04/24 <br/>Report generated|
+|91<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
